@@ -1,3 +1,4 @@
+/* General styling */
 body {
     display: flex;
     justify-content: center;
@@ -22,6 +23,7 @@ body {
     color: white;
 }
 
+/* Button styling */
 button {
     margin-left: 5px;
     background-color: black;
@@ -36,6 +38,12 @@ button:hover {
     border: 2px solid green;
 }
 
+i.fa.fa-map-marker {
+    font-size: 28px;
+    color: green;
+}
+
+/* Search bar styling */
 .search-bar {
     padding: 8px;
     border-radius: 9px;
@@ -57,11 +65,7 @@ button:hover {
     justify-content: center;
 }
 
-i.fa.fa-map-marker {
-    font-size: 28px;
-    color: green;
-}
-
+/* Weather conditions styling */
 .temperature {
     font-size: 40px;
     font-weight: bolder;
