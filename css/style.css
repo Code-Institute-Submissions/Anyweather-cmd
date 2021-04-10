@@ -1,0 +1,86 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: lightgray;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    background-size: cover;
+    background-image: url("../img/app-background.jpg");
+}
+
+/* Container styling */
+.container {
+    border: 2px solid white;
+    border-radius: 9px;
+    background: #fafafa;
+    padding: 13px;
+    width: 100%;
+    max-width: 400px;
+    background: black;
+    opacity: 0.8;
+    color: white;
+}
+
+button {
+    margin-left: 5px;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 9px;
+    outline: none;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover {
+    border: 2px solid green;
+}
+
+.search-bar {
+    padding: 8px;
+    border-radius: 9px;
+    background-color: black;
+    border: 2px solid green;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.search-bar:hover {
+    border: 2px solid white;
+}
+
+.search-window {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+i.fa.fa-map-marker {
+    font-size: 28px;
+    color: green;
+}
+
+.temperature {
+    font-size: 40px;
+    font-weight: bolder;
+    color: #0095ffd4;
+}
+
+.conditions {
+    padding: 5px;
+    letter-spacing: 0.9px;
+}
+
+.humidity {
+    padding: 5px;
+    letter-spacing: 0.9px;
+}
+
+.wind-speed {
+    padding: 5px;
+    letter-spacing: 0.9px;
+}
