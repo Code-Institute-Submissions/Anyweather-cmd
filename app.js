@@ -42,7 +42,7 @@ let weather = {
         /* Assigning the variables above with their values from json to the HTML classes */
         document.querySelector(".location").innerText = name;
         document.querySelector(".conditions").innerText = "Conditions : " + description;
-        document.querySelector(".temperature-c").innerText = temp + "°C";
+        document.querySelector(".temperature-c").innerText = temp + "°c";
         document.querySelector(".humidity").innerText = "Humidity : " + humidity + "%";
         document.querySelector(".wind-speed").innerText = "Wind Speed : " + speed + "mph";
 
